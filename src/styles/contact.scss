@@ -1,0 +1,63 @@
+@import "./colors.scss";
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $second;
+
+  main {
+    width: 70%;
+    // height: 40rem;
+    padding: 3rem;
+    border-radius: 0 200px 200px 0;
+    background-color: $first;
+
+    > form {
+      margin: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      > div {
+        width: 60%;
+        height: 3rem;
+        margin: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        > lable {
+          font: 400 1.2rem $text1;
+          width: 20%;
+          margin: 1rem;
+        }
+        > input {
+          width: 80%;
+          padding: 1rem;
+          align-self: stretch;
+          outline: none;
+          border: 1px solid Orgba(123, 123, 123, 0.6);
+          border-radius: 5px;
+        }
+      }
+
+      > button {
+        color: $first;
+        font: 500 Irem $text1;
+        width: 200px;
+        margin: 3rem 0;
+        padding: 0.7rem;
+        border: none;
+        border-radius: 5px;
+        background-color: $third;
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+}
