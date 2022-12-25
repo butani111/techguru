@@ -1,19 +1,19 @@
 @import "./colors.scss";
 
 nav {
+  position: sticky;
+  top: 0;
   width: 100%;
   padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: sticky;
   background-color: $first;
-  top: 0;
   z-index: 10;
 
   > h1 {
-    text-transform: uppercase;
     letter-spacing: 0.1em;
+    text-transform: uppercase;
   }
 
   > main {

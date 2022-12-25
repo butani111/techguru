@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/home.scss";
 import vg from "../assets/2.webp";
 import {
   AiFillGoogleCircle,
@@ -7,6 +6,8 @@ import {
   AiFillYoutube,
   AiFillInstagram,
 } from "react-icons/ai";
+
+import "../styles/home.scss";
 
 const Home = () => {
   return (

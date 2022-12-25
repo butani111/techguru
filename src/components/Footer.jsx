@@ -1,4 +1,5 @@
 import React from "react";
+
 import "../styles/footer.scss";
 
 const Footer = () => {
@@ -8,6 +9,7 @@ const Footer = () => {
         <h1>TechGURU</h1>
         <p>All Rights Reserved</p>
       </div>
+      
       <div>
         <h5>Follow Us</h5>
         <div>
