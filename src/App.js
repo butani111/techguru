@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Services from "./components/Services";
 
 import "./styles/App.scss";
+import "./styles/mediaquery.scss";
 
 function App() {
   return (
